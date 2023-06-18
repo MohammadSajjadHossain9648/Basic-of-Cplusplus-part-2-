@@ -1,6 +1,18 @@
 #include<iostream>
 using namespace std;
 /*
+    to know more: https://www.geeksforgeeks.org/const-keyword-in-cpp/
+                  https://www.javatpoint.com/const-keyword-in-cpp
+                  https://learn.microsoft.com/en-us/cpp/cpp/const-cpp?view=msvc-170
+                  https://www.studytonight.com/cpp/const-keyword.php
+                  https://www.freecodecamp.org/news/constants-in-c-explained-how-to-use-define-and-const-keyword/
+                  https://www.learncpp.com/cpp-tutorial/const-variables-and-symbolic-constants/
+                  https://eecs280staff.github.io/notes/06_Compound_Objects.html
+                  https://www.udacity.com/blog/2021/08/developers-guide-to-cpp-constant-variables.html
+                  https://www.codesdope.com/cpp-const-keyword/
+                  https://www.possibility.com/Cpp/const.html
+*/
+/*
     note: const pointer cannot change their address but change their value.
 */
 /* never write this way
@@ -50,7 +62,7 @@ int main()
     cout<<"\nafter changing x2 = 25 -> The value of *ptr2 or x2: "<<*ptr2;
 
     /*
-    Reading the declaration of ptr2 inside out, we get “ptr2 is a constant pointer to an int.” Thus, we cannot
+    Reading the declaration of ptr2 inside out, we get â€œptr2 is a constant pointer to an int.â€ Thus, we cannot
     modify the value of ptr2 itself. However, since the type that ptr2 is pointing to (what is to the left of the *)
     is not const, we can modify the object that ptr2 is pointing to.
     */
