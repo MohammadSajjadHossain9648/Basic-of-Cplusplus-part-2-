@@ -1,6 +1,17 @@
 #include<iostream>
 using namespace std;
 /*
+    to know more: https://www.geeksforgeeks.org/cpp-pointers/#:~:text=Pointers%20are%20symbolic%20representations%20of,the%20main%20use%20of%20pointers.
+                  https://www.guru99.com/cpp-pointers.html
+                  https://www.simplilearn.com/tutorials/cpp-tutorial/pointers-in-cpp
+                  https://www.scaler.com/topics/cpp/pointers-in-cpp/
+                  https://www.softwaretestinghelp.com/pointers-in-cpp/
+                  https://www.javatpoint.com/cpp-pointers
+                  https://cplusplus.com/doc/tutorial/pointers/
+                  https://www.programiz.com/cpp-programming/pointers
+                  https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm
+*/
+/*
     Function Pointer in C++
     As we know that pointers are used to point some variables; similarly, the function pointer is a pointer used to
     point functions. It is basically used to store the address of a function. We can call the function by using the
