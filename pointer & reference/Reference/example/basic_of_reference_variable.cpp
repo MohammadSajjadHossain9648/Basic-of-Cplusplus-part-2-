@@ -1,9 +1,18 @@
 #include<iostream>
 using namespace std;
 /*
+    to know more: https://www.geeksforgeeks.org/references-in-c/
+                  https://www.javatpoint.com/cpp-references
+                  https://www.softwaretestinghelp.com/references-in-cpp/
+                  https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-reference
+                  https://www.educative.io/answers/reference-variables-and-memory-address-of-variables-in-cpp
+                  https://www.tutorialspoint.com/what-is-a-reference-variable-in-cplusplus#:~:text=Reference%20variable%20is%20an%20alternate,used%20to%20declare%20reference%20variable.
+                  https://www.cs.fsu.edu/~myers/c++/notes/references.html
+*/
+/*
     reference variable is almost same as initialize a pointer.
     Reference variable is an alternate name of already existing variable. It cannot be changed to refer another
-    variable and should be initialized at the time of declaration and cannot be NULL. The operator ‘&’ is used
+    variable and should be initialized at the time of declaration and cannot be NULL. The operator â€˜&â€™ is used
     to declare reference variable.
 */
 /*
