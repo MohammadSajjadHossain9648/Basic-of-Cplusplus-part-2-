@@ -1,6 +1,15 @@
 #include<iostream>
 using namespace std;
 /*
+    to know more: https://www.geeksforgeeks.org/references-in-c/
+                  https://www.javatpoint.com/cpp-references
+                  https://www.softwaretestinghelp.com/references-in-cpp/
+                  https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-reference
+                  https://www.educative.io/answers/reference-variables-and-memory-address-of-variables-in-cpp
+                  https://www.tutorialspoint.com/what-is-a-reference-variable-in-cplusplus#:~:text=Reference%20variable%20is%20an%20alternate,used%20to%20declare%20reference%20variable.
+                  https://www.cs.fsu.edu/~myers/c++/notes/references.html
+*/
+/*
     declare variable globally what value want to change, otherwise return references didnot work
 */
 
