@@ -1,6 +1,16 @@
 #include<iostream>
 using namespace std;
 /*
+    to know more: https://www.geeksforgeeks.org/inheritance-in-c/
+                  https://www.javatpoint.com/cpp-inheritance
+                  https://www.softwaretestinghelp.com/types-of-inheritance-in-cpp/
+                  https://cplusplus.com/doc/tutorial/inheritance/
+                  https://tutorialspoint.dev/language/cpp/inheritance-in-c
+                  https://www.scaler.com/topics/cpp/inheritance-in-cpp/
+                  https://techvidvan.com/tutorials/inheritance-in-cpp/
+                  https://www.educba.com/multiple-inheritance-in-c-plus-plus/
+*/
+/*
     before start read this two files -> access modifiers with inheritance / basic
 */
 //parent class data members are public
