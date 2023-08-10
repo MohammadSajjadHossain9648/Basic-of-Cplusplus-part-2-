@@ -1,6 +1,18 @@
 #include<iostream>
 using namespace std;
 /*
+    to know more: https://www.simplilearn.com/tutorials/cpp-tutorial/oops-concepts-in-cpp
+                  https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/
+                  https://www.freecodecamp.org/news/object-oriented-programming-in-c/
+                  https://www.javatpoint.com/cpp-oops-concepts
+                  https://www.programiz.com/cpp-programming/object-class
+                  https://www.educative.io/blog/is-cpp-object-oriented-programming-language
+                  https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP
+                  https://www.indeed.com/career-advice/career-development/what-is-object-oriented-programming
+                  https://www.codecademy.com/learn/c-plus-plus-for-programmers/modules/object-oriented-programming-in-cpp/cheatsheet
+                  https://levelup.gitconnected.com/cpp-object-oriented-programming-an-in-depth-guide-f56a597091d8
+*/
+/*
     getter use for read/fetch only.
     setter use for accessing the private data member and for security purpose we can add condition in setter
     function which we can call encapsulation.
@@ -11,7 +23,7 @@ using namespace std;
     With data hiding, you can write code that checks the data coming into a class to make sure it is valid before
     assigning it to member variables.
 
-    For example, if a class is storing a person’s age, by marking the member variable as private you can provide
+    For example, if a class is storing a personâ€™s age, by marking the member variable as private you can provide
     access to the variable through a function that first checks to make sure the data being passed in is a valid age.
     If not, you can assign a default value or ask the user to enter the data in again.
 
