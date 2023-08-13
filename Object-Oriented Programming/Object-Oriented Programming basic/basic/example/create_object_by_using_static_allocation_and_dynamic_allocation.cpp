@@ -1,6 +1,16 @@
 #include<iostream>
 using namespace std;
 /*
+    to know more: https://www.geeksforgeeks.org/inheritance-in-c/
+                  https://www.javatpoint.com/cpp-inheritance
+                  https://www.softwaretestinghelp.com/types-of-inheritance-in-cpp/
+                  https://cplusplus.com/doc/tutorial/inheritance/
+                  https://tutorialspoint.dev/language/cpp/inheritance-in-c
+                  https://www.scaler.com/topics/cpp/inheritance-in-cpp/
+                  https://techvidvan.com/tutorials/inheritance-in-cpp/
+                  https://www.educba.com/multiple-inheritance-in-c-plus-plus/
+*/
+/*
     getter use for read/fetch only.
     setter use for accessing the private data member and for security purpose we can add condition in setter
     function which we can call encapsulation.
@@ -11,7 +21,7 @@ using namespace std;
     With data hiding, you can write code that checks the data coming into a class to make sure it is valid before
     assigning it to member variables.
 
-    For example, if a class is storing a person’s age, by marking the member variable as private you can provide
+    For example, if a class is storing a personâ€™s age, by marking the member variable as private you can provide
     access to the variable through a function that first checks to make sure the data being passed in is a valid age.
     If not, you can assign a default value or ask the user to enter the data in again.
 
